@@ -38,9 +38,7 @@ Keep it simple! Your contact information, social icons, and your copyright notic
 
 # HTML and CSS Layouts
 
-Your goal is to create a common two-column layout using HTML and CSS.
-
-In the [exercise/layout_one](exercise/layout_one) folder there is an HTML and CSS file for you to build the following layout:
+Your goal is to create these very common layouts using HTML and CSS.
 
 
 If you complete `Your Portfolio`, build these other very common layouts.  
