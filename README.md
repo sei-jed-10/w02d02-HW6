@@ -1,12 +1,12 @@
-## HTML & CSS & Responsive Homework Week2 Homework6
+## HTML & CSS Homework Week2 Homework6
 
 # Portfolio
 
-For today's homework, you will practice responsive design by creating your own portfolio website!
+For today's homework, you will practice HTML & CSS  by creating your own portfolio website!
 
-Since a lot of people use their phones to check websites, consider how you would want your site to look on smaller screens.
 
-Here's the sections you'll have to include into your page. You can design them however you want. Just make sure they look good for both a larger and a smaller screen!
+Here's the sections you'll have to include into your page. You can design them however you want.
+
 
 ## Navigation Bar
 
