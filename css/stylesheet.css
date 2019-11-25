@@ -1,0 +1,79 @@
+/*Global*/
+.container{
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    
+ }
+ body{
+     
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ /*overflow: hidden;*/
+
+header{
+    background-color: #35424a;
+    border-bottom: #e8491d 3px solid;
+    padding-top: 30px;
+    min-height: 70px;
+ }
+ /*  min-height: 70px; for responsive*/
+header a{
+
+    color: #bbb;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+     padding: 10px;
+    
+    
+}
+/*text decotaion to remove the defoult line came whit a */
+ 
+/*To remove the defoult pading and margin in ul*/
+ 
+nav{
+    text-align: right;
+
+    
+}
+footer{
+     background-color: #35424a;
+     border-top:tomato solid 2px; 
+     padding-bottom: 30px;
+     color: wheat;
+   
+ }
+ ul li{
+    display: inline;
+    padding: 4%;
+    
+    align-items: center;
+     
+    
+  }
+
+/*Size height family  */
+#MainBody{
+    color:red ;
+    min-height: 400px;
+    font-size: 20px;
+    padding: 3%;
+}
+ol li{
+    color: black;
+}
+#Copy{
+    text-align: center;
+}
+ 
+.Footerli{
+    display: flex;
+    flex-direction: row;
+}
+
+/* min-height for responsive*  
+//  background: url("images/compsc.png") */
+
