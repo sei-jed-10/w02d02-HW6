@@ -1,4 +1,5 @@
 ## HTML & CSS Homework Week2 Homework6
+# Requirement: Design your portfolio by following any one of the below mentioned styles.
 
 # Portfolio
 
@@ -34,14 +35,9 @@ Keep it simple! Your contact information, social icons, and your copyright notic
 
 ---
 
-# Bonus
 
 # HTML and CSS Layouts
 
-Your goal is to create these very common layouts using HTML and CSS.
-
-
-If you complete `Your Portfolio`, build these other very common layouts.  
 
 #### [exercise/layout_four](exercise/layout_four) marketing page with navigation layout
 <img width="631" alt="screen shot 2019-01-21 at 10 57 59 am" src="https://media.git.generalassemb.ly/user/3667/files/dee88f80-1d6b-11e9-8993-904270644969">
@@ -55,5 +51,4 @@ If you complete `Your Portfolio`, build these other very common layouts.
 - [Color Inspo](https://visme.co/blog/color-combinations/)
 - [Design Inspo](http://collectui.com/challenges/landing-page)
 - [FontAwesome Icons](https://fontawesome.com/icons)
-
 
