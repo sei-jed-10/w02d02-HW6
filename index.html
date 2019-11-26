@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Layout Four</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<div class="background">
+
+    <div class="nav"> 
+        <a class="a" href="#">HOME</a>
+        <a class="b" href="#">ABOUT ME</a>
+        <a class="c" href="#">SKILLS</a>
+        <a class="d" href="#">CONTACT</a>
+    </div>
+
+
+<div class="content" >
+        <div class="home">
+        <h1>Razan Sannan</h1>
+    </div>
+
+    <div class="aboutme">
+        <p><b>Hi, Welcome to my Web.</b><br>
+     My name is Razan ,22 years old , I'm from Saudi Arabia,Jeddah. 
+     I studied bechelor degree in Engineering Technology Mechatronics 
+     at Wichita State University in USA in Julay 2019.
+     I'm Mirred and i have a child.<br>
+     I have past experience with Saudi Student Association as a vice president.</p>
+    </div>
+ 
+    <div class="content">
+        <footer class="lastfooter">
+            <p>Email : Razansannan@gmail.com</p> 
+            <p>Phone: 0547570032</p>
+        </footer>
+        <p>copyright 201</p>
+        </div>
+</div>
+
+</div>
+<script type="text/javascript" src="myscripts.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $('a').click(function(){
+        var selected = $(this);
+        $('a').removeClass('active');
+        $(selected).addClass('active');
+    });
+    var $a = $('.a'),
+    $b = $('.b'),
+    $c = $('.c'),
+    $d = $('.d'),
+    $home = $('.home'),
+    $aboutme = $('.aboutme');
+
+    $a.click(function(){
+        $home.fedeIn();
+        $aboutme.fedeOut();
+    });
+    $b.click(function(){
+        $aboutme.fedeIn();
+        $home.fedeOut();
+    });
+});
+</script>
+<body>
+    
+</body>
+</html>
