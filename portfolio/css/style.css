@@ -1,0 +1,35 @@
+h1 {
+	background-color: #ff0064;
+	text-align: center;
+	padding: 20px 0 ;
+	color: white;
+}
+
+nav {
+	text-align: center;
+	background-color: orange;
+	font-size: 20px;
+	padding: 10px 0;
+}
+
+a {
+	margin: 0 20px;
+}
+
+#container01 {
+	background-color: #ffffcd
+
+}
+
+h2 {
+	color: white;
+	background-color: black;
+}
+
+#container02 {
+	background-color: #ff8630
+}
+
+footer {
+	border: 2px solid;
+}
