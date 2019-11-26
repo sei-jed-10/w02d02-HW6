@@ -1,0 +1,16 @@
+#header {
+    
+ float: center;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+footer {
+    float: center;
+  width: 200%;
+  height: 200px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 10px;
+}
