@@ -1,0 +1,54 @@
+.header{
+    padding: 70px;
+    background-color: #A4978E;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #BE9063;
+}
+.navbar{
+    display: flex;
+    align-items: flex-end;
+    font-size: xx-large;
+    font-family:Monospace;
+    padding: 5px 20px;
+
+}
+a{
+    color:white;
+}
+
+.about{
+    font-family: Monospace;
+    font-size: xx-large;
+    padding: 5px 20px;
+    color: #132226;
+
+}
+h1{
+    font-style: italic;
+    color: #A4978E;
+}
+
+.skills-exp-pro{
+    display: flex;
+    justify-content: space-around;
+    background-color:#525B56;
+    text-align: left;
+    background-color: #BE9063;
+    font-size: x-large;
+    font-family: Monospace;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:#525B56;
+    color:white;
+}
+.footera{
+    display: flex;
+    justify-content: space-around;
+}
