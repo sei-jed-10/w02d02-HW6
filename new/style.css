@@ -1,0 +1,62 @@
+#wrapper
+{
+    width: 980px;
+    height: 838px;
+    background: #ccc;
+    margin: 0 auto;
+}
+.box1{
+    width: 250px;
+    height: 150px;
+    border: thin black soild;
+    display: inline-block;
+    margin: 15px 100px 0 15px;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Mono', monospace;
+    
+}
+.box{
+    width: 140px;
+    height: 50px;
+    border: thin black soild;
+    display: inline-block;
+    margin: 0 0 48px 5px;
+}
+.box3{
+    width: 950px;
+    height: 300px;
+    border: thin black soild;
+    display: inline-block;
+    margin: 15px 100px 0 15px;
+}
+.box4{
+    width: 297px;
+    height: 180px;
+    border: thin black soild;
+    display: inline-block;
+    margin: 15px 10px 0 15px;
+}
+.box5{
+    width: 950px;
+    height: 120px;
+    border: thin black soild;
+    display: inline-block;
+    margin: 15px 100px 0 15px;
+}
+
+#one{
+    font-family: 'Roboto Mono', monospace;
+    background: #BF6666 ;
+}
+#two{
+    background: #E9967A ;
+}
+#three{
+    background: #FFA37A;
+}
+#four{
+    background: #FFA37A;
+}
+#five{
+    background:#CD5C5C;
+}
