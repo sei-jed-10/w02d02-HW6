@@ -1,0 +1,41 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header ul li {
+    display: inline;
+    justify-content: space-around;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+img { 
+    width: 200px;
+    height: 80px;
+}
+
+.aboutme p {
+    font-size: 30px;
+}
+
+.skills { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.skills div {
+        border: 2px solid red;
+        padding: 30px;
+}
+
+.exp p {
+    font-size: 30px;
+}
+
