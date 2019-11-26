@@ -1,0 +1,152 @@
+#logoContainer {
+	display:flex;
+	/*border: 2px solid blue;*/
+	float: left;
+	margin-bottom: 20px;
+}
+
+#logo {
+	
+	height: 100px;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.navigation {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 95px;
+	width: 600px;
+	float: right;
+	text-transform: uppercase;
+	/*border: 2px solid black;*/
+
+}
+
+a {
+	background-color: #bf988f;
+	padding: 20px;
+	font-family: 'Montserrat', 'Open sans' ;
+	color: white;
+	text-decoration: none;
+	font-weight: 400;
+	letter-spacing:  1px;
+	border-bottom: 4px solid transparent;
+	height: 10px;
+}
+
+a:hover {
+	border-color: white;
+}
+
+main {
+	font-family: 'Montserrat', 'Open sans' ;
+	color: #f1e0d6;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #a79c93/*#bf9d7a mocha*/;
+	height: 400px;
+	clear: both;
+	margin: 20px;
+	padding: 15px 20px 15px 20px;
+	border-radius: 5px;
+}
+
+#about_me,#skills,#experiences {
+	margin-top: 10px; 
+	margin-bottom: 10px;
+	color:black;
+	border-bottom:2px solid black;
+	
+}
+
+
+p { 
+	
+	line-height: 30px;
+	font-family: 'Sulphur Point', sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin-top: 5px;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 200px;
+	margin: 20px;
+
+}
+
+.project_1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #aba6bf;
+	border-radius: 5px;
+	height: 200px;
+	width: 300px;
+
+}
+
+.project_2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #aba6bf;
+	border-radius: 5px;
+	height: 200px;
+	width: 300px;
+
+}
+
+.project_3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #aba6bf;
+	border-radius: 5px;
+	height: 200px;
+	width: 300px;
+
+}
+
+.radius {
+	border-radius: 35px;
+}
+
+.bg {
+	background-image: url('images/background.jpeg');
+}
+
+body {
+	background-color: #f1e0d6;
+}
+
+#email {
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+#footerp {
+
+}
+
+footer {
+	background-color: #584b42;
+	height: 70px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	color: #f1e0d6;
+
+
+}
