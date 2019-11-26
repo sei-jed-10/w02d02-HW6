@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+    color: #ffffff;
+    background-color: #607d8b;
+    font: normal 16px sans-serif;
+}
+a {
+	text-decoration: none;
+    color: #000000;
+    justify-content: space-between;
+}
+a:hover {
+    opacity: 1;
+    text-transform: uppercase;
+    color: #3f51b5;
+    font-weight: bold;
+    display: flex;
+    
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    text-align: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+}
+
+
+    header {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 35px 100px 0;
+        
+        color: #fff;
+    }
+
+
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font: bold 60px "Open Sans", sans-serif;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 40px;
+    
+
+}
+
+.myName{
+    font:  32px "Open Sans", sans-serif;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    width: 400px;
+flex-wrap: wrap;
+
+
+
+}
+
+.intersts{
+display: flex;
+justify-content: space-around;
+font-size: 35px;
+height: 400px;
+padding-left: 50px;
+width: 400px;
+flex-wrap: wrap;
+flex-direction: column;
+
+}
+
+ul {
+    display: flex;
+    justify-content: column;
+    
+
+    
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    font-size: 30px;
+
+    width: 300px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    font-size: 30px;
+    width: 300px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: blue;
+	color: #fff;
+	padding: 20px 0;
+}
+
+footer ul {
+	display: flex;
+}
+
+footer ul li {
+	margin-left: 16px;
+}
+
+footer p {
+	text-transform: uppercase;
+	font-size: 14px;
+	opacity: 0.6;
+	align-self: center;
+}
+
+@media (max-width: 1100px) {
+	footer {
+		flex-direction: column;
+	}
+
+	footer p {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	footer ul li {
+		margin: 0 8px;
+	}
+} 
