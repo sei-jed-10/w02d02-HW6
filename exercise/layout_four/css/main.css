@@ -1,0 +1,104 @@
+
+img{
+float:left;
+}
+
+#nav{
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+   margin-top: 70px;
+
+}
+
+
+
+.nav-link{
+list-style-type: none;
+  display: inline;
+    
+}
+
+
+.skills{
+	float:left;
+	align-items: center;
+	background-color: #2680ab;
+	display: inline;
+	padding-right: 10px;
+
+
+
+}
+
+.experiance{
+	float:left;
+	align-items: center;
+	margin-left: 35px;
+}
+
+section{
+	background-color: orange;
+	display:block;
+
+
+}
+
+#contact{
+	  display:block;
+
+}
+
+footer{
+position: absolute;
+bottom: 0;
+height: 2.5rem;  
+align-items: center;
+
+}
+
+body{
+	font-size: 18px
+	background-color:#d24dff;
+
+}
+
+h3{
+	background-color: orange;
+	display: inline;
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+font-family: 'Calistoga', cursive;
+padding:7px;
+
+}
+#skills-heading{
+		display: block;
+		margin-top: 0;
+		text-align: center
+
+
+}
+
+.container{
+	  display: inline-block;
+  	align-items: flex-start;
+
+}
+
+#skills-List{
+		text-decoration: underline;
+		font-size:16px;
+		font-family: 'Merriweather', serif;
+		color:white;
+
+
+}
+
+b{
+font-family: 'Josefin Sans', sans-serif;
+font-weight: bold;
+
+}
+
