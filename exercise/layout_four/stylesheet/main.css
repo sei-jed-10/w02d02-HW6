@@ -1,0 +1,228 @@
+
+head { 
+    font-family: "Roboto";
+      font-size: 2.4em;
+      font-weight: 300;
+      line-height: 1.5;
+}
+
+
+
+
+body { 
+color: #262523;
+background-color: #;
+    font-family: “Lato”;
+    h1, h2, h3, h4, h5, h6 {
+        font-family: ;
+        color:#8C857B;
+        
+    }
+
+
+/* body {
+    background-color: #141414; */
+    
+      font-family: 'Lato', Helvetica, arial, sans-serif;
+      font-weight: 300;
+      font-size: 20p§x;
+      line-height: 1.45;
+      
+  }
+  #container { 
+      padding-top: 50px;
+  }
+  #content {
+      max-width: 43em;
+      padding:10px;
+      margin: 0 auto;
+  }
+  h1 {
+      font-family: “Cairo”;  
+      font-size: 4.8em;
+      font-weight: 100;
+      text-transform: uppercase;
+      margin: 0;
+  }
+  h3 {
+      font-family: "Roboto";
+      font-size: 2.4em;
+      font-weight: 300;
+      line-height: 1.5;
+  }
+  p     {
+
+  }
+  p, li {
+      font-size: 1.7em;
+  }
+  a {
+      font-weight: 700;
+      text-decoration: none;
+      color: #fff;
+  }
+  a:hover {
+      text-decoration: underline;
+  }
+  p#pleft {
+      max-width:20em;
+      float:left;
+  }
+  p#pright {
+      max-width:20em;
+      float:left;
+  }
+  ul {
+      clear:both;
+  }
+  
+  
+  html { font-size: 62.5%; }
+  body { font-size: 1em;}
+  
+  /* PYRAMID CODE */
+  .stage {
+    -webkit-transform:scale(1.85);
+    transform:scale(0.85);
+    float:right;
+    margin-right:120px;
+    margin-top:30px;
+    width:0px; height:0px;
+    
+    position:relative;  
+    -webkit-perspective:1200px;
+    -webkit-perspective-origin:50% 50%;
+    perspective:1200px;
+    perspective-origin:50% 50%;
+  }
+  .pyramid3d {
+    position:relative;
+    width:150px;
+    height:150px;
+    
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: rotateX(75deg) rotate(65deg);
+    transform: rotateX(75deg) rotate(65deg);
+    -webkit-animation: turnPyramid 10s linear infinite;
+    animation: turnPyramid 10s linear infinite;
+  }
+  .triangle {
+    -webkit-transform-style:preserve-3d;
+    transform-style:preserve-3d;
+    width:0; height:0;
+    background:none;
+  }
+  .triangle:before{
+    content:"";
+    position: absolute;
+    height: 0; width: 0;
+    border-style: solid;
+    border-width: 176px 75px 0 75px;
+  
+    .about {
+        background: #262523;
+    }
+    .desc t {
+        color: #403C38;
+        font-weight: 700;
+      }
+/* Color Theme Swatches in Hex */
+.Four-Small-Drawings-1-hex { color: #262523; }
+.Four-Small-Drawings-2-hex { color: #F2EBDF; }
+.Four-Small-Drawings-3-hex { color: #BFB5A8; }
+.Four-Small-Drawings-4-hex { color: #8C857B; }
+.Four-Small-Drawings-5-hex { color: #403C38; }
+
+a {
+ color: #403C38; 
+}
+
+.div {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header { 
+    background: url(../images/header-bg.jpg) no-repeat center top;
+}
+
+
+
+
+
+
+
+
