@@ -1,10 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Layout Four</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <header>
+      <img class="fun1" src="imgs/myLogo2019.png" alt="logo" />
+
+      <nav>
+        <ul>
+          <a href="#me">About me</a>
+          <a href="#skills">Skills</a>
+          <a href="#Experinces">Experinces or Projects</a>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article id="me">
+        <h1>About me:</h1>
+        I Enjoy working on meaningful projects & helping businesses achieve
+        their goals through technology & business process improvement is my
+        passion. Critical thinking, active listening, challenge the status quo,
+        intellectual curiosity and lifelong learning are some of my personal
+        goals and traits.
+      </article>
+
+      <div class="container">
+        <section id="skills">
+          <h1>
+            Skills
+          </h1>
+          <ul>
+            <li>
+              Programming: <br /><span>
+                JavaScript, jQuery,PHP, Python, Java in Data Structure
+                (Visualizing and Analyzing data).</span
+              >
+            </li>
+
+            <li>
+              Database: <br /><span
+                >MySQL, NoSQL, SQLPLUS, MongoDB, and Pandas.</span
+              >
+            </li>
+            <li>
+              Web Development: <br /><span
+                >Cloud Computing experience with BaaS and PaaS such as Heroku
+                and Firebase.</span
+              >
+              <br /><span>
+                HTML, CSS and React & Built backend functionality using
+                Node.js/Express server</span
+              >.
+            </li>
+            <li>
+              Applications: <br /><span
+                >Machine learning (IBM Watson Technology), SharePoint,
+                ServiceNow, SAP 4HANA, BW, SAP FIORI.</span
+              >
+            </li>
+            <li>Operating Systems: <span> Linux, Mac, and Windows.</span></li>
+          </ul>
+        </section>
+        <aside id="Experinces">
+          <h1>Experinces:</h1>
+          <ul>
+            <li>
+              Security Business Analyst and Administration<span
+                >(Saudi Spanish Train Project)</span
+              >
+            </li>
+
+            <li>
+              IT Business Integration
+              <span>(Precision Drilling Corporation)</span>
+            </li>
+            <li>IT Help Desk <span>(Mount Royal University)</span></li>
+          </ul>
+        </aside>
+      </div>
+      <!-- //end of the div of skills and exp  -->
+      <script>
+        var bill = document.querySelector(" .fun1");
+        var forYou = document.querySelector("h7");
+      </script>
+    </main>
+  </body>
+  <footer>
+    <address>
+      <h1>
+        Email: <a href="mailto:abinm670@mtroyal.ca">abinm670@mtroyal.ca</a>
+        <br />
+        Jeddah, Saudi 0552385881
+      </h1>
+    </address>
+  </footer>
 </html>
